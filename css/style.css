@@ -1,3 +1,9 @@
+a{
+    color: #ed4c5c; text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 .wrap {
     max-width: 1110px;
     min-width: 320px;
@@ -13,11 +19,6 @@
 .header-wrap-color {
     background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
     padding: 50px 0 200px 0;
-}
-
-.header-top {
-    display: flex;
-    justify-content: space-between;
 }
 
 .header-top {
@@ -41,7 +42,7 @@
     font-size: 0.875rem;
 }
 
-.transparent-btn {
+.transparent-btn{
     padding: 10px 30px;
     color: #ffffff;
     font-size: 0.875rem;
@@ -69,10 +70,28 @@
 }
 .header-content__btn{
     padding: 10px 30px;
-    color: #ffffff;
     font-size: 0.875rem;
     text-transform: uppercase;
-    border: 1px solid #ffffff;
     text-decoration: none;
     border-radius: 6px;
+    background: #ffffff;
+}
+.about-wrap{
+    padding: 100px 0;
+}
+.about-block{
+    display: flex;
+}
+.about-block-left, .about-block-left{
+    width: 45%; margin-right: 5%; align-content: center;
+}
+.about__h1{
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.about__h2{
+    font-size: .875rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
 }
