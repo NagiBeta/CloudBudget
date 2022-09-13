@@ -1,0 +1,19 @@
+{
+  "name": "cloudbudget",
+  "version": "1.0.0",
+  "description": "bidlocod",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NagiBeta/CloudBudget.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NagiBeta/CloudBudget/issues"
+  },
+  "homepage": "https://github.com/NagiBeta/CloudBudget#readme"
+}

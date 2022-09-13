@@ -11,46 +11,181 @@
     <link href="css/style.css" rel="stylesheet">
     <title>CloudBudget</title>
 </head>
-<body>
-<section class="header-wrap">
-    <div class="header-wrap-color">
+<body class="page">
+<section class="page__header">
+    <div class="header">
         <header class="wrap">
             <div class="header-top">
-                <a href="#" class="header-top-logo">
+                <a href="#" class="header-top__logo">
                     <img src="img/logo.png" alt="CloudBudget">
                 </a>
                 <ul class="menu">
-                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">Обзор</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">Особливості</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">Технологія</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">Контакти</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">Ввійти</a></li>
+                    <li><a class="menu__link" href="#about">Обзор</a></li>
+                    <li><a class="menu__link" href="#possibilities">Особливості</a></li>
+                    <li><a class="menu__link" href="#technology">Технологія</a></li>
+                    <li><a class="menu__link" href="#blog">Контакти</a></li>
+                    <li><a class="menu__link" href="#contact">Ввійти</a></li>
                 </ul>
-                <a class="transparent-btn" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">Вхід</a>
+                <a class="header-top__btn" href="#">Вхід</a>
             </div>
             <div class="header-content">
-                <h1 class="header-content__h1">CloudBudget</h1>
-                <h2 class="header-content__h2">Управление бюджетом в для всех.<br>
+                <h1 class="header-content__title">CloudBudget</h1>
+                <h2 class="header-content__description">Управление бюджетом в для всех.<br>
                     Всего 69,95 € в месяц после 7-дневной<br>
                     пробной версии за 4,99 €</h2>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" class="header-content__btn">Спробувати</a>
+                <a href="#" class="header-content__btn">Спробувати</a>
             </div>
         </header>
     </div>
 </section>
-<section class="about-wrap">
-    <div class="about-block wrap">
-        <div class="about-block-left">
-            <h1 class="about__h1">Простое приложение для управления бюджетом</h1>
-            <h3 class="about__h2">Наше приложение создано, чтобы вы могли в реальном времени управлять своим бюджетом и
+<section class="page__about" id="about">
+    <div class="about wrap">
+        <div class="about__left">
+            <h2 class="about-item__title">Простое приложение для управления бюджетом</h2>
+            <h3 class="about-item__description">Наше приложение создано, чтобы вы могли в реальном времени управлять
+                своим бюджетом и
                 расходами в режиме
                 онлайн с любого устройства. Оно предоставляет подробные отчеты о доходах и расходах с графиками, чтобы
                 вы сразу могли увидеть расходы и бюджет. Читайте ниже, чтобы узнать больше.</h3>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" class="about__btn">Узнать
-                подробнее</a>
+            <a href="#" class="about__btn">Узнать подробнее</a>
         </div>
-        <div class="about-block-right">
-            <img src="img/about.png" alt="Простое приложение для управления бюджетом" title="img" class="about_img">
+        <div class="about__right">
+            <img class="about__img" src="img/about.png" alt="Простое приложение для управления бюджетом" title="img">
+        </div>
+    </div>
+</section>
+<section class="page__possibilities" id="possibilities">
+    <div class="possibilities wrap">
+        <h2 class="possibilities__title">Возможности</h2>
+        <div class="possibilities__main">
+            <article class="possibilities-item">
+                <img src="img/Bg.png" alt="Возможности">
+                <div class="possibilities-item__content">
+                    <h3 class="possibilities-item__title">Поддерживает все валюты и карты</h3>
+                    <p class="possibilities-item__description">
+                        Мы поддерживаем все популярные валюты и полностью настраиваем, чтобы добавить
+                    </p>
+                    <a class="possibilities-item__link" href="#">Подробнее</a>
+                </div>
+            </article>
+            <article class="possibilities-item">
+                <img src="img/Bg1.png" alt="Управляйте своими расходами на ходу">
+                <div class="possibilities-item__content">
+                    <h3 class="possibilities-item__title">Управляйте своими расходами на ходу</h3>
+                    <p class="possibilities-item__description">
+                        Вы можете получить доступ к своей учетной записи из любой точки мира на любом устройстве
+                    </p>
+                    <a class="possibilities-item__link" href="#">Подробнее</a>
+                </div>
+            </article>
+            <article class="possibilities-item">
+                <img src="img/Bg2.png" alt="Управление бюджетом осуществляется в облаке">
+                <div class="possibilities-item__content">
+                    <h3 class="possibilities-item__title">Управление бюджетом осуществляется в облаке</h3>
+                    <p class="possibilities-item__description">
+                        Наше приложение создано для того, чтобы вы могли управлять управлять своим бюджетом.
+                    </p>
+                    <a class="possibilities-item__link" href="#">Подробнее</a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+<section class="page__technology" id="technology">
+    <div class="technology wrap">
+        <h2 class="technology__title">Технологии</h2>
+        <div class="technology__content">
+            <article class="technology-item">
+                <header class="technology-item__header">
+                    01
+                    <img class="technology-item__img technology-item__img_01" src="img/main1.png"
+                         alt="Облачное хранение">
+                </header>
+                <div class="technology-item__main">
+                    <h3 class="technology-item__title">Облачное хранение</h3>
+                    <p class="technology-item__description">Доступ из любой точки мира с любого устройства</p>
+                </div>
+            </article>
+            <article class="technology-item">
+                <header class="technology-item__header">
+                    02
+                    <img class="technology-item__img" src="img/main2.png" alt="Безопастность">
+                </header>
+                <div class="technology-item__main">
+                    <h3 class="technology-item__title">Безопастность</h3>
+                    <p class="technology-item__description">Вся информация хранится на защищенных облачных серверах</p>
+                </div>
+            </article>
+            <article class="technology-item">
+                <header class="technology-item__header">
+                    03
+                    <img class="technology-item__img" src="img/main3.png" alt="PDF Отчеты">
+                </header>
+                <div class="technology-item__main">
+                    <h3 class="technology-item__title">PDF Отчеты</h3>
+                    <p class="technology-item__description">Скачивайте ваши отчеты в удобном формате PDF</p>
+                </div>
+            </article>
+            <article class="technology-item">
+                <header class="technology-item__header">
+                    04
+                    <img class="technology-item__img technology-item__img_04" src="img/main4.png" alt="CSV Отчеты">
+                </header>
+                <div class="technology-item__main">
+                    <h3 class="technology-item__title">CSV Отчеты</h3>
+                    <p class="technology-item__description">Скачивайте ваши отчеты в удобном формате CSV</p>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+<section class="page__blog" id="blog">
+    <div class="blog wrap">
+        <div class="blog-item blog__left">
+            <h2 class="blog-item__title">Сосредоточьтесь на экономии денег</h2>
+            <p class="blog-item__description">Мы помогаем вам отслеживать ваши привычки в расходах, чтобы вы могли
+                легко определить и сократить ненужные расходы. Просто присоединяйтесь сегодня, чтобы начать!.</p>
+            <div class="blog-item__content">
+                <a class="blog-item__download" href="#">
+                    <img class="blog-item__img" src="img/android.svg" alt="android">
+                </a>
+                <a class="blog-item__download" href="#">
+                    <img class="blog-item__img" src="img/apple.svg" alt="apple">
+                </a>
+            </div>
+        </div>
+        <div class="blog__right">
+            <img class="blog__img" src="img/blog.png" alt="Сосредоточьтесь на экономии денег" title="img">
+        </div>
+    </div>
+</section>
+<section class="page__contact" id="contact">
+    <div class="contact wrap">
+        <div class="contact-item contact__left">
+            <h2 class="contact-item__title">Напишите нам</h2>
+            <p class="contact-item__description">Остались вопросы или опасения? Просто заполните форму ниже, и наша
+                служба поддержки свяжется с вами в течение 24 часов.</p>
+        </div>
+        <div class="contact__right">
+            <form class="contact-form">
+                <input class="contact-form__field" type="text" name="name" title="" placeholder="Имя">
+                <input class="contact-form__field" type="number" name="phone" title=""
+                       placeholder="Номер">
+                <input class="contact-form__btn " type="submit" value="Отправить">
+            </form>
+        </div>
+    </div>
+</section>
+<section class="page__footer">
+    <div class="footer wrap">
+        <div class="footer__content">
+            <h2 class="footer__title">Адрес</h2>
+            <p class="footer__description">
+                Pipang Ltd, Griva Digeni,<br>
+                81-83 Jacovides Tower, 1st Floor<br>
+                1090 Picosia USA<br>
+            </p>
+            <div class="footer__copyright">Copyright 2021 CloudBudget</div>
         </div>
     </div>
 </section>
